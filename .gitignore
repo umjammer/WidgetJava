@@ -1,0 +1,14 @@
+# Folder view configuration files
+.DS_Store
+
+# Exclude the build products
+build/*
+build.output
+build.log
+DerivedData
+xcuserdata
+*.xcuserdata
+*.PBUser
+*.mode1v3
+*.perspectivev3
+*.xccheckout

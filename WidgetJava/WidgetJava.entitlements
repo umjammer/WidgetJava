@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.security.files.user-selected.read-only</key>
+	<true/>
+	<key>com.apple.security.temporary-exception.sbpl</key>
+	<array>
+		<string>(allow process-exec (subpath &quot;/Users/nsano/Library/Containers/com.vavi.WidgetJava.Widget/Data/tmp&quot;))</string>
+		<string>(allow process-exec (subpath &quot;/Library/Java&quot;))</string>
+		<string>(allow process-exec (subpath &quot;/opt/homebrew&quot;))</string>
+		<string>(allow process-exec (subpath &quot;/bin&quot;))</string>
+		<string>(allow process-exec (subpath &quot;/usr/bin&quot;))</string>
+		<string>(allow process-exec (subpath &quot;/usr/local/bin&quot;))</string>
+		<string>(allow process-exec (literal &quot;/usr/libexec/java_home&quot;))</string>
+		<string>(allow process-exec (subpath &quot;/Users/nsano&quot;))</string>
+		<string>(allow process-fork)</string>
+		<string>(allow file-read* (subpath &quot;/&quot;))</string>
+		<string>(allow file-write* (subpath &quot;/Users/nsano&quot;))</string>
+		<string>(allow file-write* (subpath &quot;/private/tmp&quot;))</string>
+		<string>(allow file-write* (subpath &quot;/private/var&quot;))</string>
+	</array>
+	<key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/Users/nsano</string>
+		<string>/private/tmp</string>
+		<string>/private/var</string>
+	</array>
+</dict>
+</plist>
